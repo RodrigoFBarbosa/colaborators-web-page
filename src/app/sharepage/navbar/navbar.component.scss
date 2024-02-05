@@ -43,7 +43,7 @@
    color: var(--headings-black);
 }
 
-.login-btn {
+#login-btn {
     color: var(--primary-color);
     font-size: 20px;
     border: 1px solid var(--primary-color);
@@ -52,7 +52,7 @@
     transition: 0.5s;
 }
 
-.login-btn:hover {
+#login-btn:hover {
     background-color: var(--primary-color);
     color: #f9f9ff;
     border-color: var(--primary-color)

@@ -14,6 +14,7 @@ import { NavbarComponent } from './sharepage/navbar/navbar.component';
 import { FooterComponent } from './sharepage/footer/footer.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { LoginComponent } from './pages/login/login.component';
 
 
 @NgModule({
@@ -24,6 +25,7 @@ import { ContactComponent } from './pages/contact/contact.component';
     FooterComponent,
     AboutComponent,
     ContactComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
@@ -33,7 +35,7 @@ import { ContactComponent } from './pages/contact/contact.component';
     MatSidenavModule,
     MatButtonModule,
     MatIconModule,
-    MatDividerModule
+    MatDividerModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
