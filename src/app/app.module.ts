@@ -15,6 +15,7 @@ import { FooterComponent } from './sharepage/footer/footer.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { LoginComponent } from './pages/login/login.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -36,6 +37,7 @@ import { LoginComponent } from './pages/login/login.component';
     MatButtonModule,
     MatIconModule,
     MatDividerModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
